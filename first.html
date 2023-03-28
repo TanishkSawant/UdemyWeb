@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tanishk Sawant</title>
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+         transition: .5s ease;
+        background-color: #008CBA;
+      }
+      
+      .container:hover .overlay {
+        opacity: 0.69;
+        transform: scale(0.5);
+      }
+
+      .container:hover .image {
+        opacity: 0.3;
+        transition: .5s ease;
+        transform: scale(0.5);
+      }
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      </style>
+      
+    
+ </head>
+ <body>
+    <h1>Tanishk Sawant</h1>
+    
+    <h3>Student at <strong><em>Manipal University, Jaipur</em></strong></h3> 
+
+    <p>I am a first year student at Manipal University Jaipur, pursuing a Bachelor's of Technology in Information Technology. I am also in the first year of my online degree at IIT Madras, pursing a Bachelor's of Science in Data Science and Programming. This website will contain information relevant to my professional career.</p>
+
+    <p>I will share my linkedin here soon</p>
+    <hr>
+
+    <h3>Some of my hobbies:</h3>
+    <ul>
+       <li>Coding</li>
+       <li>Cooking</li>
+       <li>Game Design</li>
+       <li>Reading</li>
+       <li>Rifle Shooting</li>
+    </ul>
+    <hr>
+    <h3>My current courses:</h3>
+    <ol type="1">
+      <li>Engineering Mathematics-IV</li>
+      <li>Web Technology</li>
+      <li>RDBMS</li>
+      <li>Operating Systems</li>
+    </ol>
+    <br>
+    <a href="timetable.html">My Time Table</a>
+    <hr>
+
+
+    <div class="container">
+      <img src="https://www.cnet.com/a/img/resize/23f0dbe43618ddb0c836aefb173a8c18eca0c3bc/hub/2022/11/19/8303396e-656b-4335-979f-147de77eba60/best-laptops.jpg?auto=webp&fit=crop&height=1200&width=1200" alt="Laptop" class="image">
+      <div class="overlay">
+        <div class="text">Tanishk</div>
+      </div>
+    </div>
+     
+ </body>
+</html>
